@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-image: url('bg-intro-desktop.png');
+  background-color: hsl(0, 100%, 74%) ;
+  color: white;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+#cont-left {
+  padding-top: 200px !important;
+}
+#cont-top {
+  border-radius: 12px;
+  text-align: center;
+}
+#cont-form {
+  border-radius: 12px;
+  padding-bottom: 20px !important;
+}
+#cont-right {
+  padding-left: 0 !important;
+}
+input {
+  padding: 13px 30px !important;
+}
+
+#erIcon1 {
+  position: absolute;
+  top: 208px;
+  left: 1280px;
+}
+#erIcon2 {
+  position: absolute;
+  top: 303px;
+  left: 1280px;
+}
+#erIcon3 {
+  position: absolute;
+  top: 402px;
+  left: 1280px;
+}
+#erIcon4 {
+  position: absolute;
+  top: 495px;
+  left: 1280px;
+}
+.form-text {
+  font-size: 12px;
+}
+@media (max-width:400px) {
+  body {
+    text-align: center;
+  }
+  #cont-left {
+    padding-top: 50px !important;
+  }
+  #cont-right {
+    padding-left: 12px !important;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  #erIcon1 {
+    position: absolute;
+    top: 473px;
+    left: 305px;
+  }
+  #erIcon2 {
+    position: absolute;
+    top: 568px;
+    left: 305px;
+  }
+  #erIcon3 {
+    position: absolute;
+    top: 663px;
+    left: 305px;
+  }
+  #erIcon4 {
+    position: absolute;
+    top: 760px;
+    left: 305px;
+  }
+}
+@media (min-width:500px) and (max-width:780px) {
+  #erIcon1 {
+    position: absolute;
+    top: 560px;
+    left: 650px;
+  }
+  #erIcon2 {
+    position: absolute;
+    top: 650px;
+    left: 650px;
+  }
+  #erIcon3 {
+    position: absolute;
+    top: 748px;
+    left: 650px;
+  }
+  #erIcon4 {
+    position: absolute;
+    top: 842px;
+    left: 650px;
+  }
+}
+@media (min-width:1900px) and (max-width: 2500px) {
+  #erIcon1 {
+    position: absolute;
+    top: 360px;
+    left: 1470px;
+  }
+  #erIcon2 {
+    position: absolute;
+    top: 455px;
+    left: 1470px;
+  }
+  #erIcon3 {
+    position: absolute;
+    top: 550px;
+    left: 1470px;
+  }
+  #erIcon4 {
+    position: absolute;
+    top: 645px;
+    left: 1470px;
+  }
+}
+@media (min-width:2530px) {
+  #erIcon1 {
+    position: absolute;
+    top: 540px;
+    left: 1800px;
+  }
+  #erIcon2 {
+    position: absolute;
+    top: 635px;
+    left: 1800px;
+  }
+  #erIcon3 {
+    position: absolute;
+    top: 730px;
+    left: 1800px;
+  }
+  #erIcon4 {
+    position: absolute;
+    top: 820px;
+    left: 1800px;
+  }
+}
